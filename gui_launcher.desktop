@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=GUI Launcher
+Type=Application
+Exec=bash -c "~/heimdall_gui/launch.sh;\\$SHELL"
+Terminal=true
+Icon=urc_logo

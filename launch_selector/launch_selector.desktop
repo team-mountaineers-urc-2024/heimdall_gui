@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Launch Selector
+Type=Application
+# Use folder created from install_desktop.sh
+Exec=bash -c "python3 ~/launch_selector/launch_selector.py;\\$SHELL"
+Terminal=true
+Icon=urc_logo

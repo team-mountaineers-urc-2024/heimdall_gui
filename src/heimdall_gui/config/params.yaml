@@ -1,0 +1,17 @@
+roslink_node:
+  ros__parameters:
+    local_position_topic: "mavros/local_position/pose"
+    global_position_topic: "mavros/global_position/global"
+    local_heading_topic: "mavros/global_position/compass_hdg"
+    global_origin_topic: "global_origin"
+    state_topic: "state"
+    planner_status_topic: "planner_status"
+    select_planner_service: "select_planner"
+    pid_planner_name: "pid_planner"
+    dwa_planner_name: "dwa_planner"
+    pid_planner_enabled_service: "pid_planner_enabled"
+    dwa_planner_enabled_service: "dwa_planner_enabled"
+    pid_planner_status_topic: "pid_planner_status"
+    dwa_planner_status_topic: "dwa_planner_status"
+    drive_forward_service: "drive_forward"
+    car_style_turning_service: "car_style_turning"

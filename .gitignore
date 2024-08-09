@@ -1,0 +1,7 @@
+build/
+install/
+log/
+Screenshots/
+PathRecordings/
+
+src/robot_interfaces/

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>heimdall_gui</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="urc@todo.todo">urc</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <depend>aruco_finder</depend>
+  <depend>marker_interfacing</depend>
+  <depend>theora_webcams</depend>
+  <depend>urc_gui_lib</depend>
+  <depend>hockey_stick_arm</depend>
+  <depend>ocean_optics_spectrometer</depend>
+  <depend>rover_gui_lib</depend>
+  <depend>geographic_info</depend>
+  <depend>geographic_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
